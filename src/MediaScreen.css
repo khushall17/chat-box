@@ -1,0 +1,10 @@
+
+@media  screen and (max-width:320px){
+    .login {
+        background-color: #d60e0e;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.sidebarChat{
+    display:flex;
+    padding:10px 20px;
+    cursor:pointer;
+    border-bottom: 0.5px solid #9D50BB;
+    gap:5px;
+}
+a{
+    text-decoration: none !important;
+    color:black;
+}
+.sidebarChat:hover{
+    /* background-color: #dddada; */
+    background: linear-gradient(to right, #9D50BB, #6E48AA);
+    
+}
+.sidebarChat_info > h2{
+    font-size:18px;
+    margin-bottom:8px;
+    font-family: cursive;
+    color: aliceblue;
+}
+.sidebarChat_info{
+    margin-left:15px;
+}
+
+@media screen and (max-width:320px){
+    .sidebarChat{
+        padding:8px 10px;
+    }
+}
